@@ -1,0 +1,181 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    background: #e5e5e5;
+}
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 1200px;
+    margin: 0 auto;
+    background: #ffffff;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+}
+aside {
+    width: 370px;
+    height: 1319px;
+    background: #1e2939;
+}
+.cv-photo {
+    margin-top: 25px;
+}
+.header-secondary {
+    color: #ffffff;
+}
+.contact-links {
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 24px;
+}
+.bold {
+    font-weight: 700;
+}
+.list-secondary {
+    color: #fb6d3a;
+    list-style-position: inside;
+    padding-left: 0;
+    margin-left: 0;
+}
+.list-secondary-item {
+    color: #ffffff;
+}
+.contact-block {
+    margin: 51px 0 0 40px;
+}
+.tech-skills-block {
+    margin: 47px 0 0 40px;
+}
+.soft-skills-block {
+    margin: 44px 0 0 40px;
+}
+main {
+    padding: 102px 220px 107px 88px;
+}
+.main-description {
+    width: 600px;
+}
+h1 {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 55px;
+    margin: 19px 0 24px 0;
+}
+h2.job-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    margin: 0;
+}
+.description {
+    color: #595959;
+    margin-bottom: 40px;
+}
+.projects {
+    width: 600px;
+    margin-bottom: 51px;
+}
+.header-projects {
+    margin: 0 0 8px 0;
+}
+.list-projects {
+    padding: 0;
+    margin: 0;
+    list-style-position: inside;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 700;
+    color: black;
+}
+.list-projects-fix {
+    font-weight: 400;
+    color: #595959;
+}
+.projects-link {
+    color: black;
+    text-decoration: none;
+}
+.experience {
+    width: 525px;
+}
+.experience-header {
+    margin: 0;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+}
+.experience-header-second {
+    margin: 12px 0 11px 0;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+}
+.mk-orange {
+    color: #fb6d3a;
+}
+.experience-date {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #a8a8a8;
+    margin: 0 0 8px 0;
+}
+.experience-list {
+    list-style-position: inside;
+    padding: 0;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    margin-bottom: 16px;
+    margin-top: 0;
+}
+.education {
+    margin-top: 27px;
+}
+.education-header-second {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    margin-top: 40px;
+}
+.education-header-third {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #fb6d3a;
+    margin: 0;
+}
+.education-header-fourth {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    margin: 11px 0 12px 0;
+}
+.education-date {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #a8a8a8;
+    margin: 0 0 25px 0;
+}
+/*/////////////////////////////////////////////*/
+.media {
+    width: 310px;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 10px;
+}
+.icon-github { background-image: url("./icons/GitHub-Mark/PNG/GitHub-Mark-64px.png"); }
+.icon-html { background-image: url("./icons/GitHub-Mark/HTML.png"); }
+.icon-github, .icon-html {
+    width: 20px; height: 20px;
+    background-size: cover;
+}
+a.media-link {
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+}
+a.media-link:visited, p.media-link:active {
+    color: black;
+}
