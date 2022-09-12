@@ -194,10 +194,11 @@ h2.job-title {
 /*/////////////////////////////////////////////*/
 .media {
     margin-top: 40px;
-    width: 310px;
+    width: 230px;
     display: flex;
     flex-wrap: wrap;
     row-gap: 10px;
+    font-size: 12px;
 }
 
 .icon-github {
