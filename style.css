@@ -24,9 +24,10 @@ aside {
     /* background: #1f1f1f; */
 }
 
-/* .cv-photo {
-    margin-top: 25px;
-} */
+.cv-photo {
+    /* margin-top: 25px; */
+    border-bottom: 2px solid #555555;
+}
 
 .header-secondary {
     color: #ffffff;
