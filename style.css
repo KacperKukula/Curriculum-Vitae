@@ -1,6 +1,8 @@
 body {
     font-family: "Montserrat", sans-serif;
     background: #e5e5e5;
+    line-height: 1.4rem;
+    color: #26282b;
 }
 
 .wrapper {
@@ -16,12 +18,15 @@ body {
 aside {
     width: 370px;
     height: 1600px;
-    background: #1e2939;
+    /* background: #1e2939; */
+    /* background: #a34d07; */
+    background: #1f1f20;
+    /* background: #1f1f1f; */
 }
 
-.cv-photo {
+/* .cv-photo {
     margin-top: 25px;
-}
+} */
 
 .header-secondary {
     color: #ffffff;
@@ -42,6 +47,10 @@ aside {
     list-style-position: inside;
     padding-left: 0;
     margin-left: 0;
+}
+
+.list-secondary li {
+    margin-bottom: 3px;
 }
 
 .list-secondary-item {
@@ -84,7 +93,8 @@ h2.job-title {
 
 .description {
     color: #595959;
-    margin-bottom: 40px;
+    margin-bottom: 34px;
+    line-height: 1.4rem;
 }
 
 .projects {
@@ -98,12 +108,12 @@ h2.job-title {
 
 .list-projects {
     padding: 0;
-    margin: 0;
+    margin-bottom: 24px;
     list-style-position: inside;
     font-size: 14px;
     line-height: 24px;
     font-weight: 700;
-    color: black;
+    color: rgb(20, 20, 20);
 }
 
 .list-projects-fix {
@@ -112,7 +122,7 @@ h2.job-title {
 }
 
 .projects-link {
-    color: black;
+    color: rgb(25, 25, 25);
     text-decoration: none;
 }
 
@@ -124,7 +134,7 @@ h2.job-title {
     margin: 0;
     font-weight: 700;
     font-size: 22px;
-    line-height: 27px;
+    line-height: 32px;
 }
 
 .experience-header-second {
@@ -157,6 +167,23 @@ h2.job-title {
     margin-top: 0;
 }
 
+.experience-subtext {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #868484;
+    margin: 0 0 12px 0;
+}
+
+/*Flex classes*/
+.flex-orange {
+    opacity: 0.65 !important;
+}
+.flex-text-grey {
+    color: #353638 !important;
+}
+/**/
 .education {
     margin-top: 27px;
 }
@@ -187,13 +214,13 @@ h2.job-title {
     font-weight: 400;
     font-size: 12px;
     line-height: 15px;
-    color: #a8a8a8;
+    color: #868484;
     margin: 0 0 25px 0;
 }
 
 .hobbies {
     margin-top: 40px;
-    font-size: 14px;
+    font-size: 12px;
     padding: 0 25px 0 40px;
 }
 
